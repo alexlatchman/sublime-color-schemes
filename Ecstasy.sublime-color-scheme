@@ -1,0 +1,237 @@
+{
+	"name": "Ecstasy",
+	"globals":
+	{
+		"background": "#1e1e1e",
+		"foreground": "#ffffff",
+		"caret": "grey",
+		"line_highlight": "#111111",
+		"misspelling": "#ff0000",
+        "selection": "#333333"
+		
+	},
+	"variables":
+	{
+		"white": "#ffffff",
+		"blue": "#80aeff",
+        "blue2": "#000cff",
+		"purple": "#ba80ff",
+		"grey1": "#a7a7a7",
+		"grey2": "#505050",
+		"green": "#69ff9f",
+		"yellow": "#ffbe4d",
+		"pink": "#ff69c9",
+        "pink2": "#e639a6",
+		"red": "#b70000",
+        "red2": "#ff0000",
+	},
+	"rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "color(var(grey2))",
+            "font_style": "italic",
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "color(var(blue))",
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "color(var(purple))",
+            "font_style": "italic",
+        },
+        {
+        	"name": "Language",
+        	"scope": "constant.language",
+        	"foreground": "color(var(green))",
+        	"font_style": "italic",
+        },
+        {
+        	"name": "Escape",
+        	"scope": "constant.character.escape",
+        	"foreground": "color(var(grey2))",
+        },
+        {
+        	"name": "Placeholder",
+        	"scope": "constant.other.placeholder",
+        	"foreground": "color(var(grey2))",
+        },
+        {
+        	"name": "Other",
+        	"scope": "constant.other",
+        	"foreground": "color(var(green))",
+        },
+        {
+        	"name": "Class",
+        	"scope": "entity.name.class",
+        	"foreground": "color(var(pink))",
+        },
+        {
+        	"name": "Struct",
+        	"scope": "entity.name.struct",
+        	"foreground": "color(var(pink))",
+        },
+        {
+        	"name": "Enum",
+        	"scope": "entity.name.enum",
+        	"foreground": "color(var(pink))",
+        },
+        {
+        	"name": "Union",
+        	"scope": "entity.name.union",
+        	"foreground": "color(var(pink))",
+        },
+        {
+        	"name": "Trait",
+        	"scope": "entity.name.trait",
+        	"foreground": "color(var(pink))",
+        },
+        {
+        	"name": "Interface",
+        	"scope": "entity.name.interface",
+        	"foreground": "color(var(pink))",
+        },
+        {
+        	"name": "Implementation",
+        	"scope": "entity.name.impl",
+        	"foreground": "color(var(pink))",
+        },
+        {
+        	"name": "Type",
+        	"scope": "entity.name.type",
+        	"foreground": "color(var(pink))",
+        },
+        {
+        	"name": "Forward Declare",
+        	"scope": "entity.name.class.forward-decl",
+        	"foreground": "color(var(pink))",
+        },
+        {
+        	"name": "Inheritance",
+        	"scope": "entity.other.inherited-class",
+        	"foreground": "color(var(blue))",
+        },
+        {
+        	"name": "Function",
+        	"scope": "entity.name.function",
+        	"foreground": "color(var(yellow))",
+        },
+        {
+        	"name": "Constructor",
+        	"scope": "entity.name.function.constructor",
+        	"foreground": "color(var(green))",
+        },
+        {
+        	"name": "Destructor",
+        	"scope": "entity.name.function.destructor",
+        	"foreground": "color(var(red))",
+        },
+        {
+        	"name": "Namespace",
+        	"scope": "entity.name.namespace",
+        	"foreground": "color(var(grey1))",
+        	"font_style": "italic",
+        },
+        {
+        	"name": "Constant",
+        	"scope": "entity.name.constant",
+        	"foreground": "color(var(green))",
+        },
+        {
+            "name": "Label",
+            "scope": "entity.name.label",
+            "foreground": "color(var(purple)",
+        },
+        {
+            "name": "Section",
+            "scope": "entity.name.section",
+            "foreground": "color(var(pink))",
+        },
+        {
+            "name": "Tag",
+            "scope": "entity.name.tag",
+            "foreground": "color(var(white))",
+        },
+        {
+            "name": "Attribute",
+            "scope": "entity.other.attribute-name",
+            "foreground": "color(var(green))",
+        },
+        {
+        	"name": "Keyword Control",
+        	"scope": "keyword.control",
+        	"foreground": "color(var(pink))",
+        },
+        {
+        	"name": "Keyword Conditional",
+        	"scope": "keyword.control.conditional",
+        	"foreground": "color(var(pink))",
+        },
+        {
+        	"name": "Keyword Import",
+        	"scope": "keyword.control.import",
+        	"foreground": "color(var(yellow))",
+        },
+        {
+        	"name": "Keyword Other",
+        	"scope": "keyword.other",
+        	"foreground": "color(var(yellow))",
+        },
+        {
+        	"name": "Keyword Operator",
+        	"scope": "keyword.operator",
+        	"foreground": "color(var(pink))",
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "foreground": "color(var(red2))",
+        },
+        {
+            "name": "Invalid Deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "color(var(red2))",
+        },
+        {
+            "name": "Punctuation Keyword",
+            "scope": "punctuation.definition.keyword",
+            "foreground": "color(var(yellow))",
+        },
+        {
+            "name": "Storage Type",
+            "scope": "storage.type",
+            "foreground": "color(var(green))",
+        },
+        {
+            "name": "Storage.Modifier",
+            "scope": "storage.modifier",
+            "foreground": "color(var(pink))",
+        },
+        {
+            "name": "Support",
+            "scope": "support",
+            "foreground": "color(var(yellow))",
+        },
+        {
+            "name": "Variable Parameter",
+            "scope": "variable.parameter",
+            "foreground": "color(var(pink))",
+        },
+        {
+            "name": "Variable Language",
+            "scope": "variable.language",
+            "foreground": "color(var(yellow))",
+            "font_style": "italic",
+        },
+        {
+            "name": "Variable Function",
+            "scope": "variable.function",
+            "foreground": "color(var(pink))",
+            "font_style": "italic",
+        },
+    ]
+}
